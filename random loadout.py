@@ -12,8 +12,24 @@ weapons_list = ['spitfire', #LMGs
                 'L-star',
                 'devotion',
                 'car', #SMGs
-                'volt']
-ordnance_list = ['frag', 'arc', 'gravity star']
+                'volt',
+                'R-97',
+                'alternator',
+                'G2A5', #ARs
+                'Hemlok',
+                'R-101',
+                'R-201',
+                'Flatline',
+                'EVA-8', #shotguns
+                'Mastiff',
+                'double take', #snipers
+                'Karber',
+                'DMR',
+                'Cold war', #Grenadiers
+                'EPG',
+                'Softball',
+                'SMR']
+ordnance_list = ['frag', 'arc', 'gravity star', 'fire star', 'electric smoke']
 
 tacticaal_list = ['A-wall',
                   'cloak',
