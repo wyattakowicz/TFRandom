@@ -2,7 +2,7 @@ import random
 from os import system
 
 ''' a program that generate a random loadout to use in titanfall 2. simply
-    run the program or double click it.
+    run the program or double click it. made by flying8lack.
 
     requirment:
     you need python 3.7.4 or higher installed.
@@ -29,7 +29,7 @@ weapons_list = ['spitfire', #LMGs
                 'EPG',
                 'Softball',
                 'SMR']
-ordnance_list = ['frag', 'arc', 'gravity star', 'fire star', 'electric smoke']
+ordnance_list = ['frag', 'arc', 'gravity star', 'fire star', 'electric smoke', 'satchel']
 
 tacticaal_list = ['A-wall',
                   'cloak',
@@ -38,12 +38,16 @@ tacticaal_list = ['A-wall',
                   'phase shift',
                   'holo',
                   'pulse blade']
-kit_1_list = []
-kit_2_list = []
+kit_1_list = ['fast regen', 'ordnance expert', 'phase embark', 'power cell']
+kit_2_list = ['kill report', 'wallhang', 'hover', 'low profile', 'titan hunter']
 
+#main loop
 while True:
     print("primary:", random.choice(weapons_list))
     print("ordnance:", random.choice(ordnance_list))
     print("tactical:", random.choice(tacticaal_list))
+    print("kit 1:", random.choice(kit_1_list))
+    print("kit 2:", random.choice(kit_2_list))
+    print() #for visual aspect
     input("press enter to generate a new build...")
-    system("cls || clear") #to support both windows and linux
+    system("cls || clear") #to support both windows and linux (unsure about mac)
