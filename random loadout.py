@@ -45,6 +45,8 @@ tacticaal_list = ['A-wall',
 kit_1_list = ['fast regen', 'ordnance expert', 'phase embark', 'power cell']
 kit_2_list = ['kill report', 'wallhang', 'hover', 'low profile', 'titan hunter']
 
+titan_list = ['Ion', 'Scorch', 'Northstar', 'Ronin', 'Tone', 'Legion', 'Monarch]    
+
 #main loop
 while True:
     print("primary:", random.choice(weapons_list))
@@ -54,6 +56,7 @@ while True:
     print("tactical:", random.choice(tacticaal_list))
     print("kit 1:", random.choice(kit_1_list))
     print("kit 2:", random.choice(kit_2_list))
+    print("Titan:", random.choice(titan_list))
     print() #for visual aspect
     input("press enter to generate a new build...")
     system("cls || clear") #to support both windows and linux (unsure about mac)
