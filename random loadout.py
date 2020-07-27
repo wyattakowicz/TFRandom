@@ -45,7 +45,7 @@ tacticaal_list = ['A-wall',
 kit_1_list = ['fast regen', 'ordnance expert', 'phase embark', 'power cell']
 kit_2_list = ['kill report', 'wallhang', 'hover', 'low profile', 'titan hunter']
 
-titan_list = ['Ion', 'Scorch', 'Northstar', 'Ronin', 'Tone', 'Legion', 'Monarch]    
+titan_list = ['Ion', 'Scorch', 'Northstar', 'Ronin', 'Tone', 'Legion', 'Monarch']    
 
 #main loop
 while True:
