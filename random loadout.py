@@ -31,6 +31,10 @@ weapons_list = ['spitfire', #LMGs
                 'SMR']
 ordnance_list = ['frag', 'arc', 'gravity star', 'fire star', 'electric smoke', 'satchel']
 
+secondary_list = ['RE-45', 'P2016', 'B3 Wingman']
+
+Anti_Titan_list = ['Charge Rifle', 'MGL Mag Launcher', 'LG-97 Thunderbolt', 'Archer]
+                   
 tacticaal_list = ['A-wall',
                   'cloak',
                   'grapple',
@@ -45,6 +49,8 @@ kit_2_list = ['kill report', 'wallhang', 'hover', 'low profile', 'titan hunter']
 while True:
     print("primary:", random.choice(weapons_list))
     print("ordnance:", random.choice(ordnance_list))
+    print("secondary:", random.choice(secondary_list))
+    print("Anti-Titan:", random.choice(Anti_Titan_list))
     print("tactical:", random.choice(tacticaal_list))
     print("kit 1:", random.choice(kit_1_list))
     print("kit 2:", random.choice(kit_2_list))
